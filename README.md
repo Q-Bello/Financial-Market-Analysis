@@ -1,43 +1,49 @@
-# 📈 Financial Market Trend Analysis
+# Financial Market Analysis Dashboard
 
-A Python-based analytics dashboard to explore and visualise historical stock performance, key financial indicators, and market trends across multiple asset classes.
+This project is an interactive financial data dashboard built in Python. It enables analysis and visualization of historical market data using real-time stock price retrieval.
 
----
+## Features
 
-## Project Overview
+- Fetches real-time stock data using yFinance
+- Visualizes:
+  - Adjusted closing prices
+  - Daily percentage changes
+  - Moving averages
+  - Sharpe ratio (risk-adjusted return)
+- Modular codebase with separation of analysis and plotting logic
+- Jupyter Notebook interface for interactive exploration
 
-This project retrieves and processes historical financial data using the `yfinance` API and provides actionable insights through clear, interactive visualisations. It serves as a tool for exploring investment opportunities, analysing risk, and understanding the macroeconomic behaviour of equities, indices, and ETFs.
+## Project Structure
 
----
+├── src/ # Core analysis logic
+├── plot/ # Visualization functions
+├── data/ # Data files (CSV - gitignored)
+├── financial_dashboard.ipynb # Jupyter Notebook interface
+├── .gitignore
+└── README.md
 
-## Key Features
+markdown
+Copy
+Edit
 
--  **Time-Series Data Analysis**  
-  Download and process historical data for any listed stock, ETF, or index.
+## Technologies Used
 
-- ️ **Financial Indicators Calculated**  
-  - Moving Averages (SMA, EMA)  
-  - Volatility (Rolling Std. Dev)  
-  - Sharpe Ratio  
-  - Beta (vs benchmark)
+- Python 3.10+
+- yfinance
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- Jupyter Notebook
 
-- 🔗 **Correlation & Diversification Tools**  
-  Visualise cross-asset relationships to support portfolio construction.
+## Purpose
 
-**Professional Data Visualisations**  
-  Customisable Matplotlib/Plotly graphs for trend detection and presentation.
+This project was developed as part of a data science and finance portfolio. It demonstrates:
 
----
-
-##  Skills Demonstrated
-
-- Python, Pandas, Matplotlib, yfinance
-- Financial modelling & statistics
-- Time-series analysis
-- Portfolio theory
-- Clean, modular code design
-- Git & GitHub version control
-
----
-
-
+- Practical use of Python in financial data analysis
+- Clean code organization and modular development
+- Effective data visualization and interpretation
+ 
+## Author
+- Quddus Bello, BSc Computer Science @ Newcastle University (2024–2027)
+- LinkedIn: https://www.linkedin.com/in/quddus-bello-73482b317/
